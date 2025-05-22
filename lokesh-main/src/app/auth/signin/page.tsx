@@ -15,7 +15,7 @@ export default function SignIn() {
 
 	// If already signed in, redirect to appropriate page
 	if (session?.user?.role) {
-		router.push(`/profile/${session.user.role}`);
+		router.push(`/dashboard/${session.user.role}`);
 		return null;
 	}
 

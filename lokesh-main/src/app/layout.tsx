@@ -19,7 +19,7 @@ export default function RootLayout({
 		<html lang="en" className="h-full">
 			<body className={`${inter.className} h-full antialiased dark:bg-[#121212]`}>
 				<Providers>
-					<div className="min-h-screen bg-gradient-to-br from-teal-50 to-teal-100 dark:from-teal-900 dark:to-teal-950 dark:border dark:border-white/10">
+					<div className="min-h-screen bg-gradient-to-br from-purple-50 to-teal-50 dark:from-gray-800 dark:to-gray-900">
 						<main className="relative">
 							{children}
 						</main>
