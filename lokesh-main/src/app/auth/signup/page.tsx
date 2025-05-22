@@ -17,7 +17,7 @@ import {
   formContainerStyles,
   labelStyles,
   errorStyles,
-} from "@/components/ui/FormStyles";
+} from "@/components/ui/FormStyles.ts";
 
 export default function SignUp() {
   const router = useRouter();
